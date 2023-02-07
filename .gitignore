@@ -5,9 +5,9 @@ node_modules/
 /.pnp
 .pnp.js
 .package-lock.js
-postcss.config.js
-pnpm-lock.yaml
-.prettierrc
+postcss.config.js*
+pnpm-lock.yaml*
+.prettierrc*
 # testing
 /coverage
 
