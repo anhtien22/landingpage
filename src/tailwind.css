@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .c-link {
+    @apply text-white text-lg md:text-black hover:text-red-400 transition duration-300 ease-in;
+  }
+  .c-menu{
+    @apply fixed top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-gray-700 bg-opacity-90 md:bg-transparent md:h-auto md:flex-row md:justify-between md:static transition-all duration-500 ease-in 
+  }
+}
